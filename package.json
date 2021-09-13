@@ -1,0 +1,33 @@
+{
+  "name": "raizsight",
+  "version": "0.1.0",
+  "description": "Daily sync of Raiz to Sharesight",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --outFile dist/index.js index.ts",
+    "send": "yarn build && node dist/index.js"
+  },
+  "keywords": [
+    "raiz",
+    "sharesight",
+    "finance",
+    "investing"
+  ],
+  "author": "Jez Milledge",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "playwright": "^1.14.1",
+    "stream-to-array": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/stream-to-array": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "typescript": "^4.4.3"
+  }
+}
