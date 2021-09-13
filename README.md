@@ -1,3 +1,3 @@
 # raizsight
 
-automate imports of daily confirmation from Raiz into sharesight
+Automate imports of daily confirmations from Raiz into Sharesight
