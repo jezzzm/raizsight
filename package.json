@@ -4,7 +4,7 @@
   "description": "Daily sync of Raiz to Sharesight",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc --outFile dist/index.js lib/index.ts",
+    "build": "tsc --outDir dist --esModuleInterop lib/index.ts",
     "send": "yarn build && node dist/index.js"
   },
   "keywords": [
